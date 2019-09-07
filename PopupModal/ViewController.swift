@@ -15,6 +15,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func presentModal() {
+        let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
+        let popupVC = storyBoard.instantiateViewController(withIdentifier: "PopupViewController") as! UIViewController
+        popupVC.modalPresentationStyle = .overCurrentContext
+        present(popupVC, animated: true, completion: nil)
+        
+    }
 }
 

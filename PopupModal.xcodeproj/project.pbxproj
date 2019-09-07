@@ -11,8 +11,8 @@
 		339D70122323F7BF009B3242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339D70102323F7BF009B3242 /* Main.storyboard */; };
 		339D70142323F7C2009B3242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339D70132323F7C2009B3242 /* Assets.xcassets */; };
 		339D70172323F7C2009B3242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339D70152323F7C2009B3242 /* LaunchScreen.storyboard */; };
-		339D70202323F87B009B3242 /* modalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D701E2323F87B009B3242 /* modalViewController.swift */; };
-		339D70212323F87B009B3242 /* modalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339D701F2323F87B009B3242 /* modalViewController.xib */; };
+		339D70232323FB04009B3242 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D70222323FB04009B3242 /* ViewController.swift */; };
+		339D70292323FDF5009B3242 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D70282323FDF5009B3242 /* PopupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +22,8 @@
 		339D70132323F7C2009B3242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		339D70162323F7C2009B3242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		339D70182323F7C2009B3242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		339D701E2323F87B009B3242 /* modalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modalViewController.swift; sourceTree = "<group>"; };
-		339D701F2323F87B009B3242 /* modalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = modalViewController.xib; sourceTree = "<group>"; };
+		339D70222323FB04009B3242 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		339D70282323FDF5009B3242 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +56,11 @@
 		339D700B2323F7BF009B3242 /* PopupModal */ = {
 			isa = PBXGroup;
 			children = (
-				339D701E2323F87B009B3242 /* modalViewController.swift */,
-				339D701F2323F87B009B3242 /* modalViewController.xib */,
 				339D700C2323F7BF009B3242 /* AppDelegate.swift */,
 				339D70102323F7BF009B3242 /* Main.storyboard */,
+				339D70282323FDF5009B3242 /* PopupViewController.swift */,
 				339D70132323F7C2009B3242 /* Assets.xcassets */,
+				339D70222323FB04009B3242 /* ViewController.swift */,
 				339D70152323F7C2009B3242 /* LaunchScreen.storyboard */,
 				339D70182323F7C2009B3242 /* Info.plist */,
 			);
@@ -125,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				339D70212323F87B009B3242 /* modalViewController.xib in Resources */,
 				339D70172323F7C2009B3242 /* LaunchScreen.storyboard in Resources */,
 				339D70142323F7C2009B3242 /* Assets.xcassets in Resources */,
 				339D70122323F7BF009B3242 /* Main.storyboard in Resources */,
@@ -139,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				339D70202323F87B009B3242 /* modalViewController.swift in Sources */,
+				339D70232323FB04009B3242 /* ViewController.swift in Sources */,
 				339D700D2323F7BF009B3242 /* AppDelegate.swift in Sources */,
+				339D70292323FDF5009B3242 /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
